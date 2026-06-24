@@ -66,6 +66,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     padding: 2em;
+    margin: auto;
 }
 
 .contact {
@@ -74,17 +75,21 @@ body {
     margin: auto;
     backdrop-filter: blur(5px);
     padding: 1em;
+
 }
-.section2{
+
+.section2 {
     width: 80%;
     margin: auto;
     padding: 1em;
     backdrop-filter: blur(4px);
     padding: 1em;
 }
-.section2 img{
-   height: 50vh;
+
+.section2 img {
+    height: 50vh;
 }
+
 .image_gallery {
     display: flex;
     justify-content: center;
@@ -92,10 +97,11 @@ body {
     flex-wrap: wrap;
     gap: 5px;
 }
-.image_gallery img{
+
+.image_gallery img {
     width: 20%;
 
- 
+
 }
 
 
@@ -124,6 +130,7 @@ table {
     margin: auto;
 }
 
+
 .gmap_canvas {
     overflow: hidden;
     width: 400px;
@@ -134,27 +141,58 @@ table {
 
 @media screen and (max-width: 698px) {
     .mapouter {
-    position: relative;
-    margin: auto;
-    border-radius: 2em;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
+        position: relative;
+        margin: auto;
+        border-radius: 2em;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
 
-}
+    }
 
-.mapouter iframe {
-    border-radius: 1em;
-    margin: auto;
-}
+    .mapouter iframe {
+        border-radius: 1em;
+        margin: auto;
+    }
 
     .gmap_canvas {
         overflow: hidden;
         width: 200px;
         height: 200px;
         margin: auto;
+
+    }
+
+    td,
+    th {
+        width: 50%;
+        margin: auto;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="button"] {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .contact_container {
+        font-variant: small-caps;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        padding: 2em;
+        margin: auto;
+    }
+
+    .contact {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        backdrop-filter: blur(5px);
+        padding: 1em;
 
     }
 
