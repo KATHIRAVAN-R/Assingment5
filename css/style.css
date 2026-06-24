@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+:root {
+    --blue: #0d6efd;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #d63384;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #198754;
+    --teal: #20c997;
+    --cyan: #0dcaf0;
+}
+
+html,
+body {
+    background-image: url("../images/hotel2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+
+.nav_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_lists {
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--blue);
+
+}
+
+.footer_container {
+    backdrop-filter: blur(4px);
+    margin: auto;
+    width: 50%;
+
+}
+
+.sm_con {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sm_con img {
+    padding: 5px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.contact_container {
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 2em;
+}
+
+.contact {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    backdrop-filter: blur(5px);
+    padding: 1em;
+}
+.section2{
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    backdrop-filter: blur(4px);
+    padding: 1em;
+}
+.section2 img{
+   height: 50vh;
+}
+.image_gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.image_gallery img{
+    width: 20%;
+
+ 
+}
+
+
+table {
+    margin: auto;
+}
+
+.map {
+    margin: auto;
+}
+
+.mapouter {
+    position: relative;
+    margin: auto;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 400px;
+    height: 200px;
+
+}
+
+.mapouter iframe {
+    border-radius: 1em;
+    margin: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 698px) {
+    .mapouter {
+    position: relative;
+    margin: auto;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+
+}
+
+.mapouter iframe {
+    border-radius: 1em;
+    margin: auto;
+}
+
+    .gmap_canvas {
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+
+    }
+
+}
+
+
+
+
+.gmap_iframe {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+tr,
+th,
+td {
+    padding: 5px;
+}
